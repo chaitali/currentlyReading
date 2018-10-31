@@ -7,8 +7,7 @@ request_token_url = '%s/oauth/request_token' % url
 authorize_url = '%s/oauth/authorize' % url
 access_token_url = '%s/oauth/access_token/' % url
 
-consumer = oauth.Consumer(key='b7K6UfvGOCmKg3ZeBO5jHg',
-                          secret='pHDuNht299YPtmuL79sBLxDMrXIWL4TuOPpu9Dw7RA')
+consumer = oauth.Consumer(KEY, VALUE)
 
 client = oauth.Client(consumer)
 
